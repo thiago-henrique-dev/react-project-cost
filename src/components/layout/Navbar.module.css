@@ -3,6 +3,7 @@
     justify-content: space-between;
     background-color: #222;
     padding: 1em;
+    box-shadow: 10px 10px 59px rgb(57, 48, 48);
 }
 
 .list {

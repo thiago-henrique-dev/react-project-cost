@@ -3,6 +3,7 @@
     color: #fff;
     padding: 3em;
     text-align: center;
+    box-shadow: 10px 10px 510px rgb(57, 48, 48);
 }
 
 .social_list {
@@ -18,6 +19,7 @@
 
 .social_list li:hover{
     color: #ffbb33;
+    
 }
 
 .social_list svg {

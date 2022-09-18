@@ -23,18 +23,22 @@
     background-color: transparent;
     font-weight: bold;
     transition: .5s;
+    
    
   }
   
   .home_container p {
     margin-bottom: 1.5em;
     color: #7b7b7b;
+    
     font-weight: bold;
   }
 
   .home_container p:hover {
     color: black;
+    background-color: transparent;
     transition: .6s;
+    font-size: 18px;
 
   } 
   
