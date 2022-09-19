@@ -2,7 +2,7 @@
     width: 800px;
     display: flex;
     justify-content: space-between;
-    margin: 0;
+    margin: 2em;
     flex-wrap: wrap;
 }
 

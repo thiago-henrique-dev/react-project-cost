@@ -2,27 +2,32 @@
     display: flex;
     justify-content: space-between;
     background-color: #222;
-    padding: 1em;
+    padding: 0.5em;
     box-shadow: 10px 10px 59px rgb(57, 48, 48);
+    height: 12vh;
 }
 
 .list {
     display: flex;
     list-style: none;
     align-items: center;
+    margin-bottom: 4em;
 }
 
 .item {
     margin-right: 1em;
+    
 }
 
 .item a {
     color: #fff;
     text-decoration: none;
+    
 }
 
 .item a:hover {
     color: #ffbb33;
     transition: .6s;
+    
 }
 

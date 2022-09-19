@@ -1,4 +1,4 @@
-import styles from './Messages.module.css'
+import styles from './Message.module.css'
 import { useState, useEffect } from 'react'
 
 function Messages({ type, msg}){
