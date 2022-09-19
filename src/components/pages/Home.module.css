@@ -30,7 +30,7 @@
   .home_container p {
     margin-bottom: 1.5em;
     color: #7b7b7b;
-    
+    transition: .6s;
     font-weight: bold;
   }
 

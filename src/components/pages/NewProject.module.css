@@ -7,9 +7,32 @@
 
 .newproject_container h1 {
     margin-bottom: 0.5em;
+    font-weight: bold;
+    transition: .5s;
+    
+}
+
+.newproject_container h1:hover {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: orange;
+    transition: .5s;
     
 }
 
 .newproject_container p {
     color: #7b7b7b;
+    margin-bottom: 2em;
+    font-weight: bold;
+    font-size: 16px;
+    transition: .6s;
+}
+
+.newproject_container p:hover {
+    color: orange;
+    margin-bottom: 2em;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .6s;
+
 }

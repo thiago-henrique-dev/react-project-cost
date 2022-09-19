@@ -4,15 +4,15 @@
     padding: 0.5em 1em;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 16px;
     margin-top: 15px;
     border: none;
+    border-radius: 15px;
     
 }
 
 .btn:hover {
     background-color: orange;
-    color: #fff;
+    color: black;
     transition: .3s ease;
     transform: .10s;
     box-shadow: 3px 3px 20px rgb(57, 48, 48);
