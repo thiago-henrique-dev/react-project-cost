@@ -1,0 +1,117 @@
+.project_card {
+    padding: 1em;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 30%;
+    margin: 0.5%;
+    box-shadow: 10px 10px 510px rgb(57, 48, 48);
+}
+
+.project_card h4{
+    background-color: #222;
+    color: #FFBB33;
+    padding: .4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+}
+
+.project_card h4:hover{
+    background-color: #222;
+    color: orange;
+    padding: .4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+}
+
+.project_card p {
+    color: black;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.project-card p span {
+    font-weight: bold;
+    color: #fff;
+}
+
+.category_text {
+    display: flex;
+    align-items: center;
+}
+
+.category_text span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+}
+
+.category_text .infra {
+    background-color: #FFAEBC;
+}
+
+.category_text .desenvolvimento {
+    background-color: #A0E7E5;
+}
+
+.category_text .design {
+    background-color: #84f8c8;
+}
+
+.category_text .planejamento {
+    background-color: #fbe7c6;
+}
+
+.project_card_actions {
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.project_card_actions a {
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+    padding: 6.5px;
+    cursor: pointer;
+    margin-right: 1em;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.project_card_actions a:hover {
+    border: 1px solid rgb(51, 30, 20);;
+    background-color: rgb(51, 30, 20);
+    transition: 0.5s;
+
+}
+.project_card_actions button {
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: orange;
+    color: black;
+    font-size: 12px;
+    padding: 8px;
+    cursor: pointer;
+    margin-right: 1em;
+    border: 1px solid orange;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.project_card_actions button:hover {
+    border: 1px solid orangered;
+    background-color: orangered;
+    transition: 0.5s;
+
+}
+
+.project_card_actions button svg {
+    margin-right: .5em;
+}
