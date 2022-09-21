@@ -10,6 +10,7 @@ function Project(){
     let { id } = useParams()
     const [project, setProject] = useState([])
     const [ showProjectForm, setShowProjectForm] = useState(false)
+    const [ showServiceForm, setShowServiceForm] = useState(false)
     const [message, setMessage] = useState()
     const [type, setType] = useState()
 
@@ -64,11 +65,15 @@ function Project(){
             setShowProjectForm(!showProjectForm)
       }
 
+      function toggleServiceForm(){
+        setShowServiceForm(!showServiceForm)
+  }
+
     return (
         <>
         {project.name ? (
             <div className={styles.project_details}>
-                <Container customClass="Column">
+                <Container customClass="column">
                     {message && <Message type={type} msg={message}/>}
                     <div className={styles.details_container}>
                         <h1>Projeto: {project.name}</h1>
@@ -93,10 +98,22 @@ function Project(){
                                 <ProjectForm handleSubmit={editPost}  
                                          btnText="Concluir edição" projectData={project}/>
                             </div>
-                            
                         )}
                     </div>
-                </Container>
+                    <div className={styles.service_form_container}>
+                            <h2>Adicione um serviço</h2>
+                            <button className={styles.btn}onClick={toggleServiceForm}>
+                            {!showServiceForm ? 'Adicionar Serviço' : 'Fechar'}
+                        </button>
+                        <div className={styles.project_info}>
+                            {showServiceForm && (<div>Formulario</div>)}
+                        </div>
+                    </div>
+                    <h2>Serviços</h2>
+                    <Container customClass="start">
+                        <p>Itens de serviço</p>
+                    </Container>
+                </Container> 
             </div>
             
         ) : (

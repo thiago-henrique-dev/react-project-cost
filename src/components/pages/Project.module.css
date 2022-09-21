@@ -17,7 +17,8 @@
     background-color: #222;
     color: #ffbb33;
     padding: 0.4em;
-    font-size: 22px
+    font-size: 22px;
+    width: 80%;
 }
 
 .project_details h1:hover {
@@ -36,8 +37,26 @@
     border-bottom: 1px solid #7a7a7a;
     margin-bottom: 1.2em;
     padding-bottom: 1.2em;
+    width: 100%;
     
 }
+.service_form_container h2 {   
+    background-color: #222;
+    color: #ffbb33;
+    padding: 0.4em;
+    font-size: 22px;
+    width: 80%;
+    
+}
+
+.service_form_container h2:hover {   
+    background-color: #222;
+    color: rgb(194, 127, 3);
+    padding: 0.4em;
+    font-size: 22px
+}
+    
+
 
 .btn {
     background-color: #222;
