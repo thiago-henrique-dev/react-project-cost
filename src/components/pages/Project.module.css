@@ -1,22 +1,66 @@
-.project_container {
-    padding: 2em;
+.project_details {
+    padding: 1em;
+    box-shadow: 8px 8px 100px rgb(57, 48, 48);
+    background-color: rgb(230, 220, 220)
 }
 
-.title_container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2em;
+.project_details h1,
+.project_details h2,
+.project_details p {
+    padding: 5px 5px 5px;
+    margin-bottom: 0.5em;
+
+
 }
 
-.title_container h1 {
-    color: black;
-    font-size: 1.3em;
-    transition: .3s;
+.project_details h1 {
+    background-color: #222;
+    color: #ffbb33;
+    padding: 0.4em;
+    font-size: 22px
+}
+
+.project_details h1:hover {
+    background-color: #222;
+    color: rgb(194, 127, 3);
+    padding: 0.4em;
+    font-size: 22px
+}
+
+.project_details span {
+    font-weight: bold;
+}
+
+.details_container,
+.service_form_container {   
+    border-bottom: 1px solid #7a7a7a;
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
     
 }
 
-.title_container h1:hover {
-    color: orange;
-    font-size: 1.6em;
-    transition: .3s;
+.btn {
+    background-color: #222;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 3px 3px 20px rgb(57, 48, 48);
+    
+}
+
+.btn:hover {
+    background-color: rgb(214, 146, 20);
+    color: #fff;
+    transition: .3s ease;
+    transform: .10s;
+    box-shadow: 3px 3px 20px rgb(62, 23, 23);
+    border: 1px solid rgb(214, 146, 20);
+    
+}
+
+.project_info {
+    width: 100%;
 }

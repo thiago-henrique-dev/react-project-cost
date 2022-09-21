@@ -1,0 +1,22 @@
+.project_container {
+    padding: 2em;
+}
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.title_container h1 {
+    color: black;
+    font-size: 1.3em;
+    transition: .3s;
+    
+}
+
+.title_container h1:hover {
+    color: orange;
+    font-size: 1.6em;
+    transition: .3s;
+}
